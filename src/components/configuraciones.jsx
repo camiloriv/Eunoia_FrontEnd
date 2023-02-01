@@ -55,9 +55,6 @@ const Configuraciones = () => {
                     </div>
                 </div>
                 
-
                 );
 };
-
-
                 export default Configuraciones;
