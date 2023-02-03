@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import Pregunta from './pregunta';
+
 
 class MostrarEmociones extends Component {
+
+  
+
 
     render(){
         return(
             <>
         {this.props.objemocion.map(emocion =>
-                    <div class="card">
-                                <div class="card-body">
-                                <h5 class="card-title">{emocion.nombreEmocion}</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                    </div>
+        <div className="contenedor_emocion">
+        <img src={require("../assets/" + emocion.id + ".png")} onClick={() => Pregunta.seleccionar('emo5')} className="emocion hvr-bounce-in animacion" id='emo5' alt='' />
+        <p className="parrafo-pre descripcion_emocion">Sorprendido</p>
+        </div>
                 )}
             </>
         )

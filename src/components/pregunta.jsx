@@ -34,46 +34,12 @@ const Pregunta = () => {
         <h1 className="titulo">¿Cómo te sientes hoy?</h1>
       </div>
 
-      <div className="div__pregunta__emociones">
-        <div className="contenedor_emocion">
-          <img src={require("../assets/felicidad.png")} onClick={() => seleccionar('emo1')} className="emocion hvr-bounce-in animacion" id='emo1' alt='' />
-          <p className="parrafo-pre descripcion_emocion">Felicidad</p>
-        </div>
-        <div className="contenedor_emocion">
-          <img src={require("../assets/tristeza.png")} onClick={() => seleccionar('emo2')} className="emocion hvr-bounce-in animacion" id='emo2' alt='' />
-          <p className="parrafo-pre descripcion_emocion">Miedo</p>  
-        </div>
-        <div className="contenedor_emocion">
-          <img src={require("../assets/enojo.png")} onClick={() => seleccionar('emo3')} className="emocion hvr-bounce-in animacion" id='emo3' alt='' />
-          <p className="parrafo-pre descripcion_emocion">Enojo</p>
-        </div>
-        <div className="contenedor_emocion">
-          <img src={require("../assets/disgusto.png")} onClick={() => seleccionar('emo4')} className="emocion hvr-bounce-in animacion" id='emo4' alt='' />
-          <p className="parrafo-pre descripcion_emocion">Disgusto</p>
-        </div>
-        <div className="contenedor_emocion">
-          <img src={require("../assets/sorpresa.png")} onClick={() => seleccionar('emo5')} className="emocion hvr-bounce-in animacion" id='emo5' alt='' />
-          <p className="parrafo-pre descripcion_emocion">Sorprendido</p>
-        </div>
-        <div className="contenedor_emocion">
-          <img src={require("../assets/tristeza.png")} onClick={() => seleccionar('emo6')} className="emocion hvr-bounce-in animacion" id='emo6' alt='' />
-          <p className="parrafo-pre descripcion_emocion">Tristeza</p>
-        </div>
+        <div className="div__pregunta__emociones">
+        
       </div>
       <br/>
-      <hr/><hr/><hr/><br/><br/>
     <Emociones/>
-
-
-
-
-
-      <br/><br/><hr/><hr/><hr/>
-
-
-
-        <img className="mancha" src={require("../assets/logo-manchita.png")} alt='' />
-
+        
       <div className="_btn">
         <Link to="/muro"><button type="button" className="btn2-pregunta">Enviar</button></Link>
         <ModalNewEmotionComponent/>

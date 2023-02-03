@@ -30,7 +30,7 @@ const Home = () => {
             <p className="div__home__week__days__p">S</p>
             <p className="div__home__week__days__p">D</p>
             <p className="div__home__week__emo__p"><img src={require("../assets/sorpresa.png")} className="emocion_semana" alt='' /></p>
-            <p className="div__home__week__emo__p"><img src={require("../assets/felicidad.png")} className="emocion_semana" alt='' /></p>
+            <p className="div__home__week__emo__p"><img src={require("../assets/1.png")} className="emocion_semana" alt='' /></p>
             <p className="div__home__week__emo__p emocion_semana">26</p>
             <p className="div__home__week__emo__p emocion_semana">27</p>
             <p className="div__home__week__emo__p emocion_semana">28</p>
